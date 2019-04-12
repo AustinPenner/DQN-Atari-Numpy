@@ -4,13 +4,12 @@ This is an implementation of "Playing Atari with Deep Reinforcement Learning" (2
 ## Dependencies
 All code was written in Python 2.7. Used [OpenAI Gym](https://github.com/openai/gym) for the Atari emulator. Required packages are NumPy, h5py, Pillow, and numba.
 
-## Installing
+## Usage
+Download, navigate to the directory and run with Python 2.7
+```
 git clone https://github.com/AustinPenner/DQN-Atari-Numpy.git
 
-## Usage
-Navigate to the directory and run with Python 2.7
-```
-cd DQNAtariNumpy
+cd DQN-Atari-Numpy
 python learn_atari.py
 ```
 Running this command will start training the Deep Q Network on Breakout. 
